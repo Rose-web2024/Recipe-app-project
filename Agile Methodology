@@ -1,0 +1,200 @@
+Agile Approach
+
+The project is managed using the Scrum framework, emphasizing incremental delivery, continuous feedback, and iterative refinement 
+of requirements.
+
+Scrum Roles:
+
+Product Owner: Manages backlog, sets priorities, communicates with stakeholders
+
+Scrum Master: Ensures team follows Agile principles, removes impediments
+
+Development Team: Cross-functional team building and testing the product
+
+Goal
+
+Develop a restaurant-focused recipe management app that allows staff to:
+
+Create, edit, and store standardized recipes
+
+Manage ingredients and dietary labels
+
+Track costs and allergen compliance
+
+Access instructions offline
+
+Improve onboarding and staff training
+
+User Stories
+
+As a head chef, I want to create and edit standardized recipes so that all kitchen staff prepare dishes consistently.
+
+As a sous-chef, I want to view recipes with step-by-step instructions and images so that I can prepare dishes accurately.
+
+As a kitchen manager, I want to track ingredient quantities per recipe so that I can better manage inventory.
+
+As a staff trainer, I want to assign recipes to new hires for training purposes so that they can learn standard procedures.
+
+As a restaurant owner, I want to monitor the cost per recipe so that I can assess profitability.
+
+As a line cook, I want to search for recipes by category or dish name so that I can find what I need quickly during service.
+
+As a chef, I want to mark recipes with dietary information (e.g., vegan, gluten-free) so that we meet customer requirements.
+
+As a food safety officer, I want to include allergen tags in each recipe so that compliance with health regulations is ensured.
+
+As a manager, I want to restrict editing rights so that only authorized personnel can modify recipes.
+
+As a team member, I want to access recipes offline so that I can still work during connectivity issues in the kitchen.
+
+product_backlog
+
+ Initial Backlog Creation and Refinement (Product Owner Perspective)
+Initial Product Backlog Creation
+As the Product Owner, my primary responsibility is to capture the product vision, prioritize work based on business value, and
+collaborate with stakeholders and the Scrum Team.The initial product backlog is derived from the user stories listed above. 
+Each user story is decomposed into smaller, actionable product backlog items (PBIs). These items are not technical specifications
+but high-level features that represent business value.
+
+For example:
+
+User Story 1: "As a head chef, I want to create and edit standardized recipes…"
+
+PBI 1: Design recipe input interface
+
+PBI 2: Implement data model for recipe storage
+
+PBI 3: Develop UI for recipe editing
+
+PBI 4: Add version control functionality for recipe updates
+
+PBI 5: Create unit and integration tests
+
+The backlog will be reviewed with the Scrum Team during the Sprint Planning Meeting and further refined in backlog refinement sessions held during each sprint. During these meetings:
+
+PBIs are clarified and discussed.
+
+Stories are estimated using agile estimation methods such as Planning Poker.
+
+Large items are split into smaller, sprint-sized tasks.
+
+Dependencies, risks, and priorities are identified.
+
+Acceptance criteria are defined collaboratively.
+
+This iterative refinement ensures that the backlog remains aligned with evolving business needs and team capacity.
+
+Sprint Plan – Sprint 1
+
+Sprint Duration: 2 weeks (10 working days)
+Sprint Goal: Deliver core functionality for recipe viewing and editing to enable basic kitchen use.
+
+
+Activity
+
+Day 1
+
+Sprint Planning: Select PBIs (US1, US2, US6), define tasks, and confirm story points
+
+Day 2–3
+
+Design and develop UI for recipe creation and search
+
+Day 4–5
+
+Implement backend logic for saving and retrieving recipes
+
+Day 6
+
+Connect UI to backend services (data binding, validations)
+
+Day 7
+
+Develop and test search feature (US6)
+
+Day 8
+
+Internal quality assessment and bug fixing
+
+Day 9
+
+Sprint Review: Present completed features to stakeholders for feedback
+
+Day 10
+
+Burn-Down Chart 
+A burn-down chart visually represents the amount of work remaining versus time. Here's a conceptual breakdown:
+
+Sprint Retrospective: Reflect on process improvements and plan for Sprint 1
+
+
+| **Day** | **Planned Work Remaining** (Story Points) | **Actual Work Remaining** |
+| ------- | ----------------------------------------- | ------------------------- |
+| 1       | 16                                        | 16                        |
+| 2       | 14                                        | 16                        |
+| 3       | 12                                        | 14                        |
+| 4       | 10                                        | 12                        |
+| 5       | 8                                         | 10                        |
+| 6       | 6                                         | 7                         |
+| 7       | 4                                         | 6                         |
+| 8       | 2                                         | 3                         |
+| 9       | 0                                         | 1                         |
+| 10      | 0                                         | 0                         |
+This chart would be used in daily stand-ups to track progress and address delays early.
+
+ Workflow Diagram (Scrum Process)
+
+Product Backlog
+       ↓
+ Sprint Planning 
+       ↓
+ Sprint Backlog 
+       ↓
+ Daily Scrum  →  Development / Design / Testing 
+       ↓
+ Sprint Review 
+       ↓
+ Sprint Retrospective 
+       ↺ (Cycle continues with updated backlog)
+
+Agile vs. Sequential Planning: A Comparative Analysis for the Recipe App Project
+
+Sequential Planning Approach:
+
+In a traditional waterfall approach, the entire project is planned upfront. For the restaurant recipe app, this would involve detailed
+requirement specifications, design documentation, and timeline estimation before any coding begins.
+
+Initial Planning Phase: The full feature set is defined, including recipe creation, cost tracking, search, allergen tagging, and 
+user permissions.
+
+Gantt Chart & Timeline: All features are assigned a timeline over several months.
+
+No Flexibility: Any new insights (e.g., chefs wanting offline access or trainers needing tagging features) would require a formal
+change request.
+
+Testing: Conducted at the end of the project cycle, risking delays due to late issue discovery.
+
+Delivery: Big-bang delivery at the end of the cycle, increasing the risk of mismatched stakeholder expectations.
+
+Agile (Scrum) Planning Approach:
+
+Agile planning breaks the work into iterative sprints, focusing only on the most important items for the near term and adjusting as
+new feedback emerges.
+
+Initial Backlog: Prioritized based on user needs (e.g., recipe creation and viewing in Sprint 1).
+
+Iterative Delivery: Working features (e.g., search and edit) are delivered in two-week increments.
+
+Daily Standups: Short team meetings track progress and address blockers.
+
+Continuous Refinement: Backlog is updated based on kitchen staff feedback, allowing new features like dietary tagging or access
+control to be added mid-project.
+
+Sprint Reviews & Retrospectives: Stakeholder feedback is used immediately, improving alignment and reducing rework.
+
+Conclusion:
+
+While the sequential model may suit projects with well-understood, unchanging requirements, the agile approach is more appropriate 
+for the restaurant recipe app. Given the dynamic nature of restaurant operations and the importance of usability and compliance,
+agile ensures faster delivery of value, better alignment with user needs, and flexibility for improvement throughout the development
+lifecycle.
