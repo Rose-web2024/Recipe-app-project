@@ -5,13 +5,13 @@ This repository contains the Agile project management documentation for the deve
 
 Repository Structure
 
-user_stories - User story documentation (at least 10 stories)
+user stories - User story documentation (at least 10 stories)
 
-product_backlog- Initial product backlog with prioritization and story points
+product backlog- Initial product backlog with prioritization and story points
 
-sprint_plan - Sample sprint plan (Sprint 1)
+sprint plan - Sample sprint plan (Sprint 1)
 
-burn_down_chart- Data for visualizing Sprint 1 progress
+burn down chart- Data for visualizing Sprint 1 progress
 
-agile_comparison- Comparison between Agile and Sequential project planning
+agile comparison- Comparison between Agile and Sequential project planning
 
