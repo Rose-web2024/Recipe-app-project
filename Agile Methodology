@@ -11,6 +11,13 @@ Scrum Master: Ensures team follows Agile principles, removes impediments
 
 Development Team: Cross-functional team building and testing the product
 
+Problem Statement
+
+Restaurants often struggle with inconsistent recipe preparation, lack of standardized instructions, poor allergen tracking, 
+and limited training materials for new staff. These inefficiencies can lead to food waste, health compliance issues, and
+operational delays. A centralized, digital recipe management app tailored to restaurant workflows can mitigate these challenges by
+ensuring accuracy, safety, and efficiency in the kitchen.
+
 Goal
 
 Develop a restaurant-focused recipe management app that allows staff to:
